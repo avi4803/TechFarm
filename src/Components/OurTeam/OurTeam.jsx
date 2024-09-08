@@ -2,6 +2,7 @@ import React from 'react'
 import ProfileCard from './TeamProfile'
 import me from "../../assets/Profile.jpeg"
 import Rishi from "../../assets/Rishi.jpg"
+import Avinash from "../../assets/Avinash.jpg"
 function About() {
     return (
         <>
@@ -11,7 +12,7 @@ function About() {
 
        <div className="profile md:flex ">
 
-       <ProfileCard name="Avinash Nisad" />
+       <ProfileCard name="Avinash Nisad(Lead)" profile={Avinash} title="IOT and Web-Developer" />
        <ProfileCard name="Nilkamal" profile={me} title="Web-Developer"/>
        <ProfileCard name="Rishi Raj" profile={Rishi} title="App-Developer"/>
        </div>
